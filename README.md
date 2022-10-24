@@ -1,6 +1,6 @@
 # Standard Start
 
-Standard Start is tool that helps your ruby/rails project setup with a standard configuration.
+Standard Start is a tool that helps your ruby/rails project setup with a standard configuration.
 
 Supported tools are: 
 

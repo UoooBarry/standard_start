@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/standard_start"
+
+begin
+  StandardStart.call!(ARGV)
+rescue => exception
+  raise if ENV["DEBUG"]
+  puts "Fatal error: #{exception.message}"
+  exit 1
+end
